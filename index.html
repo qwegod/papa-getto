@@ -4,29 +4,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Моя страница</title>
     <style>
-        html, body {
+        .black-square {
+  background-color: rgba(0, 0, 0, 0.8); /* цвет черного квадрата с прозрачностью */
+  border-radius: 10px; /* радиус скругления углов */
+  width: 100px; /* ширина квадрата */
+  height: 100px; /* высота квадрата */
+}
+        html {
             height: 100%;
             margin: 0;
+            padding: 0;
         }
         body {
 			font-family: Arial, sans-serif;
             position: relative;
+            height: 100%;
+            margin: 0;
             background-image: url('background.jpg');
             background-size: cover;
             background-position: center center;
             background-repeat: no-repeat;
         }   
         header {
-            padding: 0px;
-			position: relative;
-			top: -140px;
-			left: 200px;
-			
-         
+            position: relative;
+            top: 0;
+            left: 0;
+            padding: 20px;
+            z-index: 1;
         }
         h1 {
             font-size: 30px;
             color: rgb(236, 236, 236);
+            font-size: 400%;
+            color: violet;
+            margin: 0;
         }
         main {
             padding: 20px;
@@ -38,48 +49,31 @@
         }
     </style>
 </head>
+<div class="black-square" style="position:fixed; 
+top:000px;
+left:-360px;width: 40%;height: 40%;"></div>
+<div>
+	<a href="https://www.tiktok.com/@papa_getto" style="display: block;">
+			<img src="tiktok.png" alt="Tik Tok" style="width: 190px; height: 190px;position: relative;top: 0px;left:00px;";
+            >
+		</a>
+        <a href="https://t.me/papagetto" style="display: block">
+	<img src="telegram.png" alt="Telegram" style="position: relative;top: -210px;left:200px;" width="220" height="220">
+</a>
+	<a href="https://t.me/+cUSVocT8K6k4ODky" style="display: block">
+	<img src="chat.png" alt="Chat" style="position: relative;top: -210px;left:220px;" width="180" height="180">
+</a>
+	<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2948099220" style="display: block;
+	left: 1150px;">
+	<img src="steam.png" alt="Steam" style="position: relative;top: -407px;left:0px;" width="205" height="205">
+</a>
+</div>
 <body>
-	<img src="line.jpg" width=1920px; height=100px>
-    <header>
-        <h1 style="color: violet; font-size: 400%;"><b>Папа Гетто лучший игрок на Shadow Fiend</b></h1>
-    </header>    
-</body>
-<style>
-	.video-container {
-	  position: relative;
-	  top: -100px;
-	  left: 460px;
-	  bottom: 1000px;
-	  right: 50px;
-	}
-	</style>
-	<div class="video-container">
-	  <video width="1000" height="600" autoplay loop muted>
-		<source src="video.mp4" type="video/mp4">
-		Your browser does not support the video tag.
-	  </video>	
-  </div>
-  <div>
-	<a href="https://www.tiktok.com/@papa_getto" style="display: block; position: relative;
-	top:  -550px;
-	left: 700px;">
-	<img src="tiktok.png" alt="Tik Tok"style="position: relative; left: -550px; top: -100px" width="210" height="210">
-</a>
-	<a href="https://t.me/papagetto" style="display: block; position: relative;
-	top:  -300px;
-	left: 700px;">
-	<img src="telegram.png" alt="Telegram"style="position: relative; left: -570px; top: -270px" width="250" height="250">
-</a>
-	<a href="https://t.me/+cUSVocT8K6k4ODky" style="display: block; position: relative;
-	top:  -320px;
-	left: 1150px;">
-	<img src="chat.png" alt="Chat"style="position: relative; left: 370px; top: -800px" width="230" height="230">
-</a>
-	<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2948099220" style="display: block; position: relative;
-	top:  -600px;
-	left: 1150px;">
-	<img src="steam.png" alt="Steam"style="position: relative; left: 370px; top: -460px" width="250" height="250">
-</a>
-	
-  </div>  
+<img src="taunt.gif" style="position: fixed;top:0;left:1630px">
+<footer style="position: absolute; bottom: 0; width: 100%; text-align: center;">
+    <p><h4>&copy; 2023 Папа Гетто. Все права защищены.</h4></p>
+  </footer>
+  
+  
+    </body>
 </html>
